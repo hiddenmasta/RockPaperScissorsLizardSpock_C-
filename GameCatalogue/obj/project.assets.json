@@ -1,0 +1,111 @@
+{
+  "version": 3,
+  "targets": {
+    "net7.0": {
+      "GameCore/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "compile": {
+          "bin/placeholder/GameCore.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/GameCore.dll": {}
+        }
+      },
+      "RockPaperScissorsLizardSpockGame/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "dependencies": {
+          "GameCore": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/RockPaperScissorsLizardSpockGame.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/RockPaperScissorsLizardSpockGame.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "GameCore/1.0.0": {
+      "type": "project",
+      "path": "../GameCore/GameCore.csproj",
+      "msbuildProject": "../GameCore/GameCore.csproj"
+    },
+    "RockPaperScissorsLizardSpockGame/1.0.0": {
+      "type": "project",
+      "path": "../RockPaperScissorsLizardSpockGame/RockPaperScissorsLizardSpockGame.csproj",
+      "msbuildProject": "../RockPaperScissorsLizardSpockGame/RockPaperScissorsLizardSpockGame.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net7.0": [
+      "GameCore >= 1.0.0",
+      "RockPaperScissorsLizardSpockGame >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "/Users/lionel/.nuget/packages/": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "/Users/lionel/Projects/trasis_test/GameCatalogue/GameCatalogue.csproj",
+      "projectName": "GameCatalogue",
+      "projectPath": "/Users/lionel/Projects/trasis_test/GameCatalogue/GameCatalogue.csproj",
+      "packagesPath": "/Users/lionel/.nuget/packages/",
+      "outputPath": "/Users/lionel/Projects/trasis_test/GameCatalogue/obj/",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "/Users/lionel/.nuget/NuGet/NuGet.Config"
+      ],
+      "originalTargetFrameworks": [
+        "net7.0"
+      ],
+      "sources": {
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "projectReferences": {
+            "/Users/lionel/Projects/trasis_test/GameCore/GameCore.csproj": {
+              "projectPath": "/Users/lionel/Projects/trasis_test/GameCore/GameCore.csproj"
+            },
+            "/Users/lionel/Projects/trasis_test/RockPaperScissorsLizardSpockGame/RockPaperScissorsLizardSpockGame.csproj": {
+              "projectPath": "/Users/lionel/Projects/trasis_test/RockPaperScissorsLizardSpockGame/RockPaperScissorsLizardSpockGame.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "net7.0": {
+        "targetAlias": "net7.0",
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48",
+          "net481"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.314/RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}

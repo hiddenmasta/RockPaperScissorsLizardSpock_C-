@@ -1,0 +1,17 @@
+/Users/lionel/Projects/trasis_test/GameCatalogue/bin/Debug/net7.0/GameCatalogue.deps.json
+/Users/lionel/Projects/trasis_test/GameCatalogue/bin/Debug/net7.0/GameCatalogue.dll
+/Users/lionel/Projects/trasis_test/GameCatalogue/bin/Debug/net7.0/GameCatalogue.pdb
+/Users/lionel/Projects/trasis_test/GameCatalogue/bin/Debug/net7.0/GameCore.dll
+/Users/lionel/Projects/trasis_test/GameCatalogue/bin/Debug/net7.0/RockPaperScissorsLizardSpockGame.dll
+/Users/lionel/Projects/trasis_test/GameCatalogue/bin/Debug/net7.0/GameCore.pdb
+/Users/lionel/Projects/trasis_test/GameCatalogue/bin/Debug/net7.0/RockPaperScissorsLizardSpockGame.pdb
+/Users/lionel/Projects/trasis_test/GameCatalogue/obj/Debug/net7.0/GameCatalogue.csproj.AssemblyReference.cache
+/Users/lionel/Projects/trasis_test/GameCatalogue/obj/Debug/net7.0/GameCatalogue.GeneratedMSBuildEditorConfig.editorconfig
+/Users/lionel/Projects/trasis_test/GameCatalogue/obj/Debug/net7.0/GameCatalogue.AssemblyInfoInputs.cache
+/Users/lionel/Projects/trasis_test/GameCatalogue/obj/Debug/net7.0/GameCatalogue.AssemblyInfo.cs
+/Users/lionel/Projects/trasis_test/GameCatalogue/obj/Debug/net7.0/GameCatalogue.csproj.CoreCompileInputs.cache
+/Users/lionel/Projects/trasis_test/GameCatalogue/obj/Debug/net7.0/GameCatalogue.csproj.CopyComplete
+/Users/lionel/Projects/trasis_test/GameCatalogue/obj/Debug/net7.0/GameCatalogue.dll
+/Users/lionel/Projects/trasis_test/GameCatalogue/obj/Debug/net7.0/refint/GameCatalogue.dll
+/Users/lionel/Projects/trasis_test/GameCatalogue/obj/Debug/net7.0/GameCatalogue.pdb
+/Users/lionel/Projects/trasis_test/GameCatalogue/obj/Debug/net7.0/ref/GameCatalogue.dll

@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "XESHEeIlRIo7BhFB0MjUgsW7Zv/K6/Poecp0Xsrj4/qKPJ0sz2hR4/stFpLLMpFnaZGyNMUsfrHUwMadz4x1bQ==",
+  "success": true,
+  "projectFilePath": "/Users/lionel/Projects/trasis_test/trasis_test/trasis_test.csproj",
+  "expectedPackageFiles": [
+    "/Users/lionel/.nuget/packages/fluentassertions/6.12.0/fluentassertions.6.12.0.nupkg.sha512",
+    "/Users/lionel/.nuget/packages/system.configuration.configurationmanager/4.4.0/system.configuration.configurationmanager.4.4.0.nupkg.sha512",
+    "/Users/lionel/.nuget/packages/system.security.cryptography.protecteddata/4.4.0/system.security.cryptography.protecteddata.4.4.0.nupkg.sha512"
+  ],
+  "logs": []
+}

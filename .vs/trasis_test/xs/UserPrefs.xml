@@ -1,0 +1,52 @@
+﻿<Properties StartupConfiguration="{CCFDB06C-1F05-4CEE-876F-4475129DC2C4}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="trasis_test/Program.cs">
+    <Files>
+      <File FileName="trasis_test/Program.cs" Line="28" Column="51" />
+      <File FileName="trasis_test/IGame.cs" Line="18" Column="10" />
+      <File FileName="trasis_test/RockPaperScissorsLizardSpockGame.cs" Line="24" Column="6" />
+      <File FileName="trasis_test/Player.cs" Line="14" Column="25" />
+      <File FileName="trasis_test/IPlayer.cs" Line="4" Column="38" />
+      <File FileName="trasis_test/RockPaperScissorsLizardSpockGameComponentExtensions.cs" Line="2" Column="2" />
+      <File FileName="trasis_test/Lizard.cs" Line="1" Column="32" />
+      <File FileName="trasis_test/Paper.cs" Line="1" Column="31" />
+      <File FileName="trasis_test/Rock.cs" Line="1" Column="30" />
+      <File FileName="trasis_test/RockPaperScissorsLizardSpockGameComponent.cs" Line="1" Column="32" />
+      <File FileName="trasis_test/Scissors.cs" Line="1" Column="34" />
+      <File FileName="trasis_test/Spock.cs" Line="1" Column="31" />
+      <File FileName="GameCatalogue/GameFactory.cs" Line="2" Column="25" />
+      <File FileName="RockPaperScissorsLizardSpockGame.Tests/UnitTest1.cs" Line="68" Column="6" />
+      <File FileName="RockPaperScissorsLizardSpockGame.Tests/Usings.cs" Line="1" Column="20" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="trasis_test" expanded="True">
+            <Node name="GameCatalogue" expanded="True" />
+            <Node name="GameCore" expanded="True" />
+            <Node name="RockPaperScissorsLizardSpockGame" expanded="True" />
+            <Node name="RockPaperScissorsLizardSpockGame.Tests" expanded="True" />
+            <Node name="trasis_test" expanded="True" />
+          </Node>
+        </State>
+      </Pad>
+      <Pad Id="MonoDevelop.UnitTesting.TestPad">
+        <State name="__root__">
+          <Node name="trasis_test">
+            <Node name="RockPaperScissorsLizardSpockGame.Tests" expanded="True">
+              <Node name="RockPaperScissorsLizardSpockGame.Tests" expanded="True">
+                <Node name="ConsoleGameTests" expanded="True" />
+              </Node>
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.ItemProperties.trasis__test PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+</Properties>

@@ -1,0 +1,15 @@
+/Users/lionel/Projects/trasis_test/RockPaperScissorsLizardSpockGame/bin/Debug/net7.0/RockPaperScissorsLizardSpockGame.deps.json
+/Users/lionel/Projects/trasis_test/RockPaperScissorsLizardSpockGame/bin/Debug/net7.0/RockPaperScissorsLizardSpockGame.dll
+/Users/lionel/Projects/trasis_test/RockPaperScissorsLizardSpockGame/bin/Debug/net7.0/RockPaperScissorsLizardSpockGame.pdb
+/Users/lionel/Projects/trasis_test/RockPaperScissorsLizardSpockGame/bin/Debug/net7.0/GameCore.dll
+/Users/lionel/Projects/trasis_test/RockPaperScissorsLizardSpockGame/bin/Debug/net7.0/GameCore.pdb
+/Users/lionel/Projects/trasis_test/RockPaperScissorsLizardSpockGame/obj/Debug/net7.0/RockPaperScissorsLizardSpockGame.csproj.AssemblyReference.cache
+/Users/lionel/Projects/trasis_test/RockPaperScissorsLizardSpockGame/obj/Debug/net7.0/RockPaperScissorsLizardSpockGame.GeneratedMSBuildEditorConfig.editorconfig
+/Users/lionel/Projects/trasis_test/RockPaperScissorsLizardSpockGame/obj/Debug/net7.0/RockPaperScissorsLizardSpockGame.AssemblyInfoInputs.cache
+/Users/lionel/Projects/trasis_test/RockPaperScissorsLizardSpockGame/obj/Debug/net7.0/RockPaperScissorsLizardSpockGame.AssemblyInfo.cs
+/Users/lionel/Projects/trasis_test/RockPaperScissorsLizardSpockGame/obj/Debug/net7.0/RockPaperScissorsLizardSpockGame.csproj.CoreCompileInputs.cache
+/Users/lionel/Projects/trasis_test/RockPaperScissorsLizardSpockGame/obj/Debug/net7.0/RockPaperScissorsLizardSpockGame.csproj.CopyComplete
+/Users/lionel/Projects/trasis_test/RockPaperScissorsLizardSpockGame/obj/Debug/net7.0/RockPaperScissorsLizardSpockGame.dll
+/Users/lionel/Projects/trasis_test/RockPaperScissorsLizardSpockGame/obj/Debug/net7.0/refint/RockPaperScissorsLizardSpockGame.dll
+/Users/lionel/Projects/trasis_test/RockPaperScissorsLizardSpockGame/obj/Debug/net7.0/RockPaperScissorsLizardSpockGame.pdb
+/Users/lionel/Projects/trasis_test/RockPaperScissorsLizardSpockGame/obj/Debug/net7.0/ref/RockPaperScissorsLizardSpockGame.dll
