@@ -1,0 +1,317 @@
+Last login: Thu Aug  1 21:29:12 on console
+/Users/lionel/.zshrc:export:1: not valid in this context: Snitch.app/Contents/Components:/opt/homebrew/bin:/opt/homebrew/bin
+lionel@lionels-MacBook-Pro trasis_test % git init
+Initialized empty Git repository in /Users/lionel/Projects/trasis_test/.git/
+lionel@lionels-MacBook-Pro trasis_test % git add --all
+lionel@lionels-MacBook-Pro trasis_test % git commit -m "first"       
+[main (root-commit) b2e10a7] first
+ Committer: lionel <lionel@lionels-MacBook-Pro.local>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly:
+
+    git config --global user.name "Your Name"
+    git config --global user.email you@example.com
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 258 files changed, 10360 insertions(+)
+ create mode 100644 .DS_Store
+ create mode 100644 .vs/trasis_test/xs/UserPrefs.xml
+ create mode 100644 .vs/trasis_test/xs/project-cache/GameCatalogue-Debug.json
+ create mode 100644 .vs/trasis_test/xs/project-cache/GameCore-Debug.json
+ create mode 100644 .vs/trasis_test/xs/project-cache/RockPaperScissorsLizardSpockGame-Debug.json
+ create mode 100644 .vs/trasis_test/xs/project-cache/RockPaperScissorsLizardSpockGame.Tests-Debug.json
+ create mode 100644 .vs/trasis_test/xs/project-cache/trasis_test-Debug.json
+ create mode 100644 GameCatalogue/.DS_Store
+ create mode 100644 GameCatalogue/GameCatalogue.csproj
+ create mode 100644 GameCatalogue/GameFactory.cs
+ create mode 100644 GameCatalogue/bin/Debug/net7.0/GameCatalogue.deps.json
+ create mode 100644 GameCatalogue/bin/Debug/net7.0/GameCatalogue.dll
+ create mode 100644 GameCatalogue/bin/Debug/net7.0/GameCatalogue.pdb
+ create mode 100644 GameCatalogue/bin/Debug/net7.0/GameCore.dll
+ create mode 100644 GameCatalogue/bin/Debug/net7.0/GameCore.pdb
+ create mode 100644 GameCatalogue/bin/Debug/net7.0/RockPaperScissorsLizardSpockGame.dll
+ create mode 100644 GameCatalogue/bin/Debug/net7.0/RockPaperScissorsLizardSpockGame.pdb
+ create mode 100644 GameCatalogue/obj/Debug/net7.0/.NETCoreApp,Version=v7.0.AssemblyAttributes.cs
+ create mode 100644 GameCatalogue/obj/Debug/net7.0/GameCatalogue.AssemblyInfo.cs
+ create mode 100644 GameCatalogue/obj/Debug/net7.0/GameCatalogue.AssemblyInfoInputs.cache
+ create mode 100644 GameCatalogue/obj/Debug/net7.0/GameCatalogue.GeneratedMSBuildEditorConfig.editorconfig
+ create mode 100644 GameCatalogue/obj/Debug/net7.0/GameCatalogue.GlobalUsings.g.cs
+ create mode 100644 GameCatalogue/obj/Debug/net7.0/GameCatalogue.assets.cache
+ create mode 100644 GameCatalogue/obj/Debug/net7.0/GameCatalogue.csproj.AssemblyReference.cache
+ create mode 100644 GameCatalogue/obj/Debug/net7.0/GameCatalogue.csproj.CopyComplete
+ create mode 100644 GameCatalogue/obj/Debug/net7.0/GameCatalogue.csproj.CoreCompileInputs.cache
+ create mode 100644 GameCatalogue/obj/Debug/net7.0/GameCatalogue.csproj.FileListAbsolute.txt
+ create mode 100644 GameCatalogue/obj/Debug/net7.0/GameCatalogue.dll
+ create mode 100644 GameCatalogue/obj/Debug/net7.0/GameCatalogue.pdb
+ create mode 100644 GameCatalogue/obj/Debug/net7.0/ref/GameCatalogue.dll
+ create mode 100644 GameCatalogue/obj/Debug/net7.0/refint/GameCatalogue.dll
+ create mode 100644 GameCatalogue/obj/GameCatalogue.csproj.nuget.dgspec.json
+ create mode 100644 GameCatalogue/obj/GameCatalogue.csproj.nuget.g.props
+ create mode 100644 GameCatalogue/obj/GameCatalogue.csproj.nuget.g.targets
+ create mode 100644 GameCatalogue/obj/project.assets.json
+ create mode 100644 GameCatalogue/obj/project.nuget.cache
+ create mode 100644 GameCore/.DS_Store
+ create mode 100644 GameCore/GameCore.csproj
+ create mode 100644 GameCore/IConsoleGame.cs
+ create mode 100644 GameCore/IPlayer.cs
+ create mode 100644 GameCore/bin/Debug/net7.0/GameCore.deps.json
+ create mode 100644 GameCore/bin/Debug/net7.0/GameCore.dll
+ create mode 100644 GameCore/bin/Debug/net7.0/GameCore.pdb
+ create mode 100644 GameCore/obj/Debug/net7.0/.NETCoreApp,Version=v7.0.AssemblyAttributes.cs
+ create mode 100644 GameCore/obj/Debug/net7.0/GameCore.AssemblyInfo.cs
+ create mode 100644 GameCore/obj/Debug/net7.0/GameCore.AssemblyInfoInputs.cache
+ create mode 100644 GameCore/obj/Debug/net7.0/GameCore.GeneratedMSBuildEditorConfig.editorconfig
+ create mode 100644 GameCore/obj/Debug/net7.0/GameCore.GlobalUsings.g.cs
+ create mode 100644 GameCore/obj/Debug/net7.0/GameCore.assets.cache
+ create mode 100644 GameCore/obj/Debug/net7.0/GameCore.csproj.AssemblyReference.cache
+ create mode 100644 GameCore/obj/Debug/net7.0/GameCore.csproj.CoreCompileInputs.cache
+ create mode 100644 GameCore/obj/Debug/net7.0/GameCore.csproj.FileListAbsolute.txt
+ create mode 100644 GameCore/obj/Debug/net7.0/GameCore.dll
+ create mode 100644 GameCore/obj/Debug/net7.0/GameCore.pdb
+ create mode 100644 GameCore/obj/Debug/net7.0/ref/GameCore.dll
+ create mode 100644 GameCore/obj/Debug/net7.0/refint/GameCore.dll
+ create mode 100644 GameCore/obj/GameCore.csproj.nuget.dgspec.json
+ create mode 100644 GameCore/obj/GameCore.csproj.nuget.g.props
+ create mode 100644 GameCore/obj/GameCore.csproj.nuget.g.targets
+ create mode 100644 GameCore/obj/project.assets.json
+ create mode 100644 GameCore/obj/project.nuget.cache
+ create mode 100644 RockPaperScissorsLizardSpockGame.Tests/.DS_Store
+ create mode 100644 RockPaperScissorsLizardSpockGame.Tests/ConsoleGameTests.cs
+ create mode 100644 RockPaperScissorsLizardSpockGame.Tests/RockPaperScissorsLizardSpockGame.Tests.csproj
+ create mode 100644 RockPaperScissorsLizardSpockGame.Tests/Usings.cs
+ create mode 100644 RockPaperScissorsLizardSpockGame.Tests/bin/Debug/net7.0/CoverletSourceRootsMapping
+ create mode 100755 RockPaperScissorsLizardSpockGame.Tests/bin/Debug/net7.0/FluentAssertions.dll
+ create mode 100644 RockPaperScissorsLizardSpockGame.Tests/bin/Debug/net7.0/GameCore.dll
+ create mode 100644 RockPaperScissorsLizardSpockGame.Tests/bin/Debug/net7.0/GameCore.pdb
+ create mode 100755 RockPaperScissorsLizardSpockGame.Tests/bin/Debug/net7.0/Microsoft.TestPlatform.CommunicationUtilities.dll
+ create mode 100755 RockPaperScissorsLizardSpockGame.Tests/bin/Debug/net7.0/Microsoft.TestPlatform.CoreUtilities.dll
+ create mode 100755 RockPaperScissorsLizardSpockGame.Tests/bin/Debug/net7.0/Microsoft.TestPlatform.CrossPlatEngine.dll
+ create mode 100755 RockPaperScissorsLizardSpockGame.Tests/bin/Debug/net7.0/Microsoft.TestPlatform.PlatformAbstractions.dll
+ create mode 100755 RockPaperScissorsLizardSpockGame.Tests/bin/Debug/net7.0/Microsoft.TestPlatform.Utilities.dll
+ create mode 100755 RockPaperScissorsLizardSpockGame.Tests/bin/Debug/net7.0/Microsoft.VisualStudio.CodeCoverage.Shim.dll
+ create mode 100755 RockPaperScissorsLizardSpockGame.Tests/bin/Debug/net7.0/Microsoft.VisualStudio.TestPlatform.Common.dll
+ create mode 100755 RockPaperScissorsLizardSpockGame.Tests/bin/Debug/net7.0/Microsoft.VisualStudio.TestPlatform.ObjectModel.dll
+ create mode 100755 RockPaperScissorsLizardSpockGame.Tests/bin/Debug/net7.0/Newtonsoft.Json.dll
+ create mode 100755 RockPaperScissorsLizardSpockGame.Tests/bin/Debug/net7.0/NuGet.Frameworks.dll
+ create mode 100644 RockPaperScissorsLizardSpockGame.Tests/bin/Debug/net7.0/RockPaperScissorsLizardSpockGame.Tests.deps.json
+ create mode 100644 RockPaperScissorsLizardSpockGame.Tests/bin/Debug/net7.0/RockPaperScissorsLizardSpockGame.Tests.dll
+ create mode 100644 RockPaperScissorsLizardSpockGame.Tests/bin/Debug/net7.0/RockPaperScissorsLizardSpockGame.Tests.pdb
+ create mode 100644 RockPaperScissorsLizardSpockGame.Tests/bin/Debug/net7.0/RockPaperScissorsLizardSpockGame.Tests.runtimeconfig.json
+ create mode 100644 RockPaperScissorsLizardSpockGame.Tests/bin/Debug/net7.0/RockPaperScissorsLizardSpockGame.dll
+ create mode 100644 RockPaperScissorsLizardSpockGame.Tests/bin/Debug/net7.0/RockPaperScissorsLizardSpockGame.pdb
+ create mode 100755 RockPaperScissorsLizardSpockGame.Tests/bin/Debug/net7.0/System.Configuration.ConfigurationManager.dll
+ create mode 100755 RockPaperScissorsLizardSpockGame.Tests/bin/Debug/net7.0/System.Security.Cryptography.ProtectedData.dll
+ create mode 100755 RockPaperScissorsLizardSpockGame.Tests/bin/Debug/net7.0/cs/Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+ create mode 100755 RockPaperScissorsLizardSpockGame.Tests/bin/Debug/net7.0/cs/Microsoft.TestPlatform.CoreUtilities.resources.dll
+ create mode 100755 RockPaperScissorsLizardSpockGame.Tests/bin/Debug/net7.0/cs/Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+ create mode 100755 RockPaperScissorsLizardSpockGame.Tests/bin/Debug/net7.0/cs/Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+ create mode 100755 RockPaperScissorsLizardSpockGame.Tests/bin/Debug/net7.0/cs/Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+ create mode 100755 RockPaperScissorsLizardSpockGame.Tests/bin/Debug/net7.0/de/Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+ create mode 100755 RockPaperScissorsLizardSpockGame.Tests/bin/Debug/net7.0/de/Microsoft.TestPlatform.CoreUtilities.resources.dll
+ create mode 100755 RockPaperScissorsLizardSpockGame.Tests/bin/Debug/net7.0/de/Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+ create mode 100755 RockPaperScissorsLizardSpockGame.Tests/bin/Debug/net7.0/de/Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+ create mode 100755 RockPaperScissorsLizardSpockGame.Tests/bin/Debug/net7.0/de/Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+ create mode 100755 RockPaperScissorsLizardSpockGame.Tests/bin/Debug/net7.0/es/Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+ create mode 100755 RockPaperScissorsLizardSpockGame.Tests/bin/Debug/net7.0/es/Microsoft.TestPlatform.CoreUtilities.resources.dll
+ create mode 100755 RockPaperScissorsLizardSpockGame.Tests/bin/Debug/net7.0/es/Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+ create mode 100755 RockPaperScissorsLizardSpockGame.Tests/bin/Debug/net7.0/es/Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+ create mode 100755 RockPaperScissorsLizardSpockGame.Tests/bin/Debug/net7.0/es/Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+ create mode 100755 RockPaperScissorsLizardSpockGame.Tests/bin/Debug/net7.0/fr/Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+ create mode 100755 RockPaperScissorsLizardSpockGame.Tests/bin/Debug/net7.0/fr/Microsoft.TestPlatform.CoreUtilities.resources.dll
+ create mode 100755 RockPaperScissorsLizardSpockGame.Tests/bin/Debug/net7.0/fr/Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+ create mode 100755 RockPaperScissorsLizardSpockGame.Tests/bin/Debug/net7.0/fr/Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+ create mode 100755 RockPaperScissorsLizardSpockGame.Tests/bin/Debug/net7.0/fr/Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+ create mode 100755 RockPaperScissorsLizardSpockGame.Tests/bin/Debug/net7.0/it/Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+ create mode 100755 RockPaperScissorsLizardSpockGame.Tests/bin/Debug/net7.0/it/Microsoft.TestPlatform.CoreUtilities.resources.dll
+ create mode 100755 RockPaperScissorsLizardSpockGame.Tests/bin/Debug/net7.0/it/Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+ create mode 100755 RockPaperScissorsLizardSpockGame.Tests/bin/Debug/net7.0/it/Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+ create mode 100755 RockPaperScissorsLizardSpockGame.Tests/bin/Debug/net7.0/it/Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+ create mode 100755 RockPaperScissorsLizardSpockGame.Tests/bin/Debug/net7.0/ja/Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+ create mode 100755 RockPaperScissorsLizardSpockGame.Tests/bin/Debug/net7.0/ja/Microsoft.TestPlatform.CoreUtilities.resources.dll
+ create mode 100755 RockPaperScissorsLizardSpockGame.Tests/bin/Debug/net7.0/ja/Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+ create mode 100755 RockPaperScissorsLizardSpockGame.Tests/bin/Debug/net7.0/ja/Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+ create mode 100755 RockPaperScissorsLizardSpockGame.Tests/bin/Debug/net7.0/ja/Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+ create mode 100755 RockPaperScissorsLizardSpockGame.Tests/bin/Debug/net7.0/ko/Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+ create mode 100755 RockPaperScissorsLizardSpockGame.Tests/bin/Debug/net7.0/ko/Microsoft.TestPlatform.CoreUtilities.resources.dll
+ create mode 100755 RockPaperScissorsLizardSpockGame.Tests/bin/Debug/net7.0/ko/Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+ create mode 100755 RockPaperScissorsLizardSpockGame.Tests/bin/Debug/net7.0/ko/Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+ create mode 100755 RockPaperScissorsLizardSpockGame.Tests/bin/Debug/net7.0/ko/Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+ create mode 100755 RockPaperScissorsLizardSpockGame.Tests/bin/Debug/net7.0/pl/Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+ create mode 100755 RockPaperScissorsLizardSpockGame.Tests/bin/Debug/net7.0/pl/Microsoft.TestPlatform.CoreUtilities.resources.dll
+ create mode 100755 RockPaperScissorsLizardSpockGame.Tests/bin/Debug/net7.0/pl/Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+ create mode 100755 RockPaperScissorsLizardSpockGame.Tests/bin/Debug/net7.0/pl/Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+ create mode 100755 RockPaperScissorsLizardSpockGame.Tests/bin/Debug/net7.0/pl/Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+ create mode 100755 RockPaperScissorsLizardSpockGame.Tests/bin/Debug/net7.0/pt-BR/Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+ create mode 100755 RockPaperScissorsLizardSpockGame.Tests/bin/Debug/net7.0/pt-BR/Microsoft.TestPlatform.CoreUtilities.resources.dll
+ create mode 100755 RockPaperScissorsLizardSpockGame.Tests/bin/Debug/net7.0/pt-BR/Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+ create mode 100755 RockPaperScissorsLizardSpockGame.Tests/bin/Debug/net7.0/pt-BR/Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+ create mode 100755 RockPaperScissorsLizardSpockGame.Tests/bin/Debug/net7.0/pt-BR/Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+ create mode 100755 RockPaperScissorsLizardSpockGame.Tests/bin/Debug/net7.0/ru/Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+ create mode 100755 RockPaperScissorsLizardSpockGame.Tests/bin/Debug/net7.0/ru/Microsoft.TestPlatform.CoreUtilities.resources.dll
+ create mode 100755 RockPaperScissorsLizardSpockGame.Tests/bin/Debug/net7.0/ru/Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+ create mode 100755 RockPaperScissorsLizardSpockGame.Tests/bin/Debug/net7.0/ru/Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+ create mode 100755 RockPaperScissorsLizardSpockGame.Tests/bin/Debug/net7.0/ru/Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+ create mode 100755 RockPaperScissorsLizardSpockGame.Tests/bin/Debug/net7.0/runtimes/win/lib/netstandard2.0/System.Security.Cryptography.ProtectedData.dll
+ create mode 100755 RockPaperScissorsLizardSpockGame.Tests/bin/Debug/net7.0/testhost.dll
+ create mode 100755 RockPaperScissorsLizardSpockGame.Tests/bin/Debug/net7.0/tr/Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+ create mode 100755 RockPaperScissorsLizardSpockGame.Tests/bin/Debug/net7.0/tr/Microsoft.TestPlatform.CoreUtilities.resources.dll
+ create mode 100755 RockPaperScissorsLizardSpockGame.Tests/bin/Debug/net7.0/tr/Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+ create mode 100755 RockPaperScissorsLizardSpockGame.Tests/bin/Debug/net7.0/tr/Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+ create mode 100755 RockPaperScissorsLizardSpockGame.Tests/bin/Debug/net7.0/tr/Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+ create mode 100755 RockPaperScissorsLizardSpockGame.Tests/bin/Debug/net7.0/xunit.abstractions.dll
+ create mode 100755 RockPaperScissorsLizardSpockGame.Tests/bin/Debug/net7.0/xunit.assert.dll
+ create mode 100755 RockPaperScissorsLizardSpockGame.Tests/bin/Debug/net7.0/xunit.core.dll
+ create mode 100755 RockPaperScissorsLizardSpockGame.Tests/bin/Debug/net7.0/xunit.execution.dotnet.dll
+ create mode 100755 RockPaperScissorsLizardSpockGame.Tests/bin/Debug/net7.0/xunit.runner.reporters.netcoreapp10.dll
+ create mode 100755 RockPaperScissorsLizardSpockGame.Tests/bin/Debug/net7.0/xunit.runner.utility.netcoreapp10.dll
+ create mode 100755 RockPaperScissorsLizardSpockGame.Tests/bin/Debug/net7.0/xunit.runner.visualstudio.dotnetcore.testadapter.dll
+ create mode 100755 RockPaperScissorsLizardSpockGame.Tests/bin/Debug/net7.0/zh-Hans/Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+ create mode 100755 RockPaperScissorsLizardSpockGame.Tests/bin/Debug/net7.0/zh-Hans/Microsoft.TestPlatform.CoreUtilities.resources.dll
+ create mode 100755 RockPaperScissorsLizardSpockGame.Tests/bin/Debug/net7.0/zh-Hans/Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+ create mode 100755 RockPaperScissorsLizardSpockGame.Tests/bin/Debug/net7.0/zh-Hans/Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+ create mode 100755 RockPaperScissorsLizardSpockGame.Tests/bin/Debug/net7.0/zh-Hans/Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+ create mode 100755 RockPaperScissorsLizardSpockGame.Tests/bin/Debug/net7.0/zh-Hant/Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+ create mode 100755 RockPaperScissorsLizardSpockGame.Tests/bin/Debug/net7.0/zh-Hant/Microsoft.TestPlatform.CoreUtilities.resources.dll
+ create mode 100755 RockPaperScissorsLizardSpockGame.Tests/bin/Debug/net7.0/zh-Hant/Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+ create mode 100755 RockPaperScissorsLizardSpockGame.Tests/bin/Debug/net7.0/zh-Hant/Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+ create mode 100755 RockPaperScissorsLizardSpockGame.Tests/bin/Debug/net7.0/zh-Hant/Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+ create mode 100644 RockPaperScissorsLizardSpockGame.Tests/obj/Debug/net7.0/.NETCoreApp,Version=v7.0.AssemblyAttributes.cs
+ create mode 100644 RockPaperScissorsLizardSpockGame.Tests/obj/Debug/net7.0/RockPaperScissorsLizardSpockGame.Tests.AssemblyInfo.cs
+ create mode 100644 RockPaperScissorsLizardSpockGame.Tests/obj/Debug/net7.0/RockPaperScissorsLizardSpockGame.Tests.AssemblyInfoInputs.cache
+ create mode 100644 RockPaperScissorsLizardSpockGame.Tests/obj/Debug/net7.0/RockPaperScissorsLizardSpockGame.Tests.GeneratedMSBuildEditorConfig.editorconfig
+ create mode 100644 RockPaperScissorsLizardSpockGame.Tests/obj/Debug/net7.0/RockPaperScissorsLizardSpockGame.Tests.GlobalUsings.g.cs
+ create mode 100644 RockPaperScissorsLizardSpockGame.Tests/obj/Debug/net7.0/RockPaperScissorsLizardSpockGame.Tests.assets.cache
+ create mode 100644 RockPaperScissorsLizardSpockGame.Tests/obj/Debug/net7.0/RockPaperScissorsLizardSpockGame.Tests.csproj.AssemblyReference.cache
+ create mode 100644 RockPaperScissorsLizardSpockGame.Tests/obj/Debug/net7.0/RockPaperScissorsLizardSpockGame.Tests.csproj.CopyComplete
+ create mode 100644 RockPaperScissorsLizardSpockGame.Tests/obj/Debug/net7.0/RockPaperScissorsLizardSpockGame.Tests.csproj.CoreCompileInputs.cache
+ create mode 100644 RockPaperScissorsLizardSpockGame.Tests/obj/Debug/net7.0/RockPaperScissorsLizardSpockGame.Tests.csproj.FileListAbsolute.txt
+ create mode 100644 RockPaperScissorsLizardSpockGame.Tests/obj/Debug/net7.0/RockPaperScissorsLizardSpockGame.Tests.dll
+ create mode 100644 RockPaperScissorsLizardSpockGame.Tests/obj/Debug/net7.0/RockPaperScissorsLizardSpockGame.Tests.genruntimeconfig.cache
+ create mode 100644 RockPaperScissorsLizardSpockGame.Tests/obj/Debug/net7.0/RockPaperScissorsLizardSpockGame.Tests.pdb
+ create mode 100644 RockPaperScissorsLizardSpockGame.Tests/obj/Debug/net7.0/ref/RockPaperScissorsLizardSpockGame.Tests.dll
+ create mode 100644 RockPaperScissorsLizardSpockGame.Tests/obj/Debug/net7.0/refint/RockPaperScissorsLizardSpockGame.Tests.dll
+ create mode 100644 RockPaperScissorsLizardSpockGame.Tests/obj/RockPaperScissorsLizardSpockGame.Tests.csproj.nuget.dgspec.json
+ create mode 100644 RockPaperScissorsLizardSpockGame.Tests/obj/RockPaperScissorsLizardSpockGame.Tests.csproj.nuget.g.props
+ create mode 100644 RockPaperScissorsLizardSpockGame.Tests/obj/RockPaperScissorsLizardSpockGame.Tests.csproj.nuget.g.targets
+ create mode 100644 RockPaperScissorsLizardSpockGame.Tests/obj/project.assets.json
+ create mode 100644 RockPaperScissorsLizardSpockGame.Tests/obj/project.nuget.cache
+ create mode 100644 RockPaperScissorsLizardSpockGame/.DS_Store
+ create mode 100644 RockPaperScissorsLizardSpockGame/Components/Component.cs
+ create mode 100644 RockPaperScissorsLizardSpockGame/Components/ComponentExtensions.cs
+ create mode 100644 RockPaperScissorsLizardSpockGame/Components/Lizard.cs
+ create mode 100644 RockPaperScissorsLizardSpockGame/Components/Paper.cs
+ create mode 100644 RockPaperScissorsLizardSpockGame/Components/Player.cs
+ create mode 100644 RockPaperScissorsLizardSpockGame/Components/Rock.cs
+ create mode 100644 RockPaperScissorsLizardSpockGame/Components/Scissors.cs
+ create mode 100644 RockPaperScissorsLizardSpockGame/Components/Spock.cs
+ create mode 100644 RockPaperScissorsLizardSpockGame/ConsoleGame.cs
+ create mode 100644 RockPaperScissorsLizardSpockGame/RockPaperScissorsLizardSpockGame.csproj
+ create mode 100644 RockPaperScissorsLizardSpockGame/bin/Debug/net7.0/GameCore.dll
+ create mode 100644 RockPaperScissorsLizardSpockGame/bin/Debug/net7.0/GameCore.pdb
+ create mode 100644 RockPaperScissorsLizardSpockGame/bin/Debug/net7.0/RockPaperScissorsLizardSpockGame.deps.json
+ create mode 100644 RockPaperScissorsLizardSpockGame/bin/Debug/net7.0/RockPaperScissorsLizardSpockGame.dll
+ create mode 100644 RockPaperScissorsLizardSpockGame/bin/Debug/net7.0/RockPaperScissorsLizardSpockGame.pdb
+ create mode 100644 RockPaperScissorsLizardSpockGame/obj/Debug/net7.0/.NETCoreApp,Version=v7.0.AssemblyAttributes.cs
+ create mode 100644 RockPaperScissorsLizardSpockGame/obj/Debug/net7.0/RockPaperScissorsLizardSpockGame.AssemblyInfo.cs
+ create mode 100644 RockPaperScissorsLizardSpockGame/obj/Debug/net7.0/RockPaperScissorsLizardSpockGame.AssemblyInfoInputs.cache
+ create mode 100644 RockPaperScissorsLizardSpockGame/obj/Debug/net7.0/RockPaperScissorsLizardSpockGame.GeneratedMSBuildEditorConfig.editorconfig
+ create mode 100644 RockPaperScissorsLizardSpockGame/obj/Debug/net7.0/RockPaperScissorsLizardSpockGame.GlobalUsings.g.cs
+ create mode 100644 RockPaperScissorsLizardSpockGame/obj/Debug/net7.0/RockPaperScissorsLizardSpockGame.assets.cache
+ create mode 100644 RockPaperScissorsLizardSpockGame/obj/Debug/net7.0/RockPaperScissorsLizardSpockGame.csproj.AssemblyReference.cache
+ create mode 100644 RockPaperScissorsLizardSpockGame/obj/Debug/net7.0/RockPaperScissorsLizardSpockGame.csproj.CopyComplete
+ create mode 100644 RockPaperScissorsLizardSpockGame/obj/Debug/net7.0/RockPaperScissorsLizardSpockGame.csproj.CoreCompileInputs.cache
+ create mode 100644 RockPaperScissorsLizardSpockGame/obj/Debug/net7.0/RockPaperScissorsLizardSpockGame.csproj.FileListAbsolute.txt
+ create mode 100644 RockPaperScissorsLizardSpockGame/obj/Debug/net7.0/RockPaperScissorsLizardSpockGame.dll
+ create mode 100644 RockPaperScissorsLizardSpockGame/obj/Debug/net7.0/RockPaperScissorsLizardSpockGame.pdb
+ create mode 100644 RockPaperScissorsLizardSpockGame/obj/Debug/net7.0/ref/RockPaperScissorsLizardSpockGame.dll
+ create mode 100644 RockPaperScissorsLizardSpockGame/obj/Debug/net7.0/refint/RockPaperScissorsLizardSpockGame.dll
+ create mode 100644 RockPaperScissorsLizardSpockGame/obj/RockPaperScissorsLizardSpockGame.csproj.nuget.dgspec.json
+ create mode 100644 RockPaperScissorsLizardSpockGame/obj/RockPaperScissorsLizardSpockGame.csproj.nuget.g.props
+ create mode 100644 RockPaperScissorsLizardSpockGame/obj/RockPaperScissorsLizardSpockGame.csproj.nuget.g.targets
+ create mode 100644 RockPaperScissorsLizardSpockGame/obj/project.assets.json
+ create mode 100644 RockPaperScissorsLizardSpockGame/obj/project.nuget.cache
+ create mode 100644 trasis_test.sln
+ create mode 100644 trasis_test/.DS_Store
+ create mode 100644 trasis_test/Program.cs
+ create mode 100644 trasis_test/bin/.DS_Store
+ create mode 100755 trasis_test/bin/Debug/net7.0/FluentAssertions.dll
+ create mode 100644 trasis_test/bin/Debug/net7.0/GameCatalogue.dll
+ create mode 100644 trasis_test/bin/Debug/net7.0/GameCatalogue.pdb
+ create mode 100644 trasis_test/bin/Debug/net7.0/GameCore.dll
+ create mode 100644 trasis_test/bin/Debug/net7.0/GameCore.pdb
+ create mode 100644 trasis_test/bin/Debug/net7.0/RockPaperScissorsLizardSpockGame.dll
+ create mode 100644 trasis_test/bin/Debug/net7.0/RockPaperScissorsLizardSpockGame.pdb
+ create mode 100755 trasis_test/bin/Debug/net7.0/System.Configuration.ConfigurationManager.dll
+ create mode 100755 trasis_test/bin/Debug/net7.0/System.Security.Cryptography.ProtectedData.dll
+ create mode 100755 trasis_test/bin/Debug/net7.0/runtimes/win/lib/netstandard2.0/System.Security.Cryptography.ProtectedData.dll
+ create mode 100755 trasis_test/bin/Debug/net7.0/trasis_test
+ create mode 100644 trasis_test/bin/Debug/net7.0/trasis_test.deps.json
+ create mode 100644 trasis_test/bin/Debug/net7.0/trasis_test.dll
+ create mode 100644 trasis_test/bin/Debug/net7.0/trasis_test.pdb
+ create mode 100644 trasis_test/bin/Debug/net7.0/trasis_test.runtimeconfig.json
+ create mode 100644 trasis_test/obj/.DS_Store
+ create mode 100644 trasis_test/obj/Debug/net7.0/.NETCoreApp,Version=v7.0.AssemblyAttributes.cs
+ create mode 100755 trasis_test/obj/Debug/net7.0/apphost
+ create mode 100644 trasis_test/obj/Debug/net7.0/ref/trasis_test.dll
+ create mode 100644 trasis_test/obj/Debug/net7.0/refint/trasis_test.dll
+ create mode 100644 trasis_test/obj/Debug/net7.0/trasis_test.AssemblyInfo.cs
+ create mode 100644 trasis_test/obj/Debug/net7.0/trasis_test.AssemblyInfoInputs.cache
+ create mode 100644 trasis_test/obj/Debug/net7.0/trasis_test.GeneratedMSBuildEditorConfig.editorconfig
+ create mode 100644 trasis_test/obj/Debug/net7.0/trasis_test.GlobalUsings.g.cs
+ create mode 100644 trasis_test/obj/Debug/net7.0/trasis_test.assets.cache
+ create mode 100644 trasis_test/obj/Debug/net7.0/trasis_test.csproj.AssemblyReference.cache
+ create mode 100644 trasis_test/obj/Debug/net7.0/trasis_test.csproj.CopyComplete
+ create mode 100644 trasis_test/obj/Debug/net7.0/trasis_test.csproj.CoreCompileInputs.cache
+ create mode 100644 trasis_test/obj/Debug/net7.0/trasis_test.csproj.FileListAbsolute.txt
+ create mode 100644 trasis_test/obj/Debug/net7.0/trasis_test.dll
+ create mode 100644 trasis_test/obj/Debug/net7.0/trasis_test.genruntimeconfig.cache
+ create mode 100644 trasis_test/obj/Debug/net7.0/trasis_test.pdb
+ create mode 100644 trasis_test/obj/project.assets.json
+ create mode 100644 trasis_test/obj/project.nuget.cache
+ create mode 100644 trasis_test/obj/trasis_test.csproj.nuget.dgspec.json
+ create mode 100644 trasis_test/obj/trasis_test.csproj.nuget.g.props
+ create mode 100644 trasis_test/obj/trasis_test.csproj.nuget.g.targets
+ create mode 100644 trasis_test/trasis_test.csproj
+lionel@lionels-MacBook-Pro trasis_test % git branch -M main
+lionel@lionels-MacBook-Pro trasis_test % git remote add origin https://github.com/hiddenmasta/RockPaperScissorsLizardSpock_C-.git
+lionel@lionels-MacBook-Pro trasis_test % git push -u origin main
+Enumerating objects: 268, done.
+Counting objects: 100% (268/268), done.
+Delta compression using up to 10 threads
+Compressing objects: 100% (232/232), done.
+Writing objects: 100% (268/268), 1.97 MiB | 997.00 KiB/s, done.
+Total 268 (delta 137), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (137/137), done.
+To https://github.com/hiddenmasta/RockPaperScissorsLizardSpock_C-.git
+ * [new branch]      main -> main
+branch 'main' set up to track 'origin/main'.
+lionel@lionels-MacBook-Pro trasis_test % nano .gitignore
+
+  UW PICO 5.09                    File: .gitignore                    Modified  
+
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+*.code-workspace
+
+# Local History for Visual Studio Code
+.history/
+
+# Windows Installer files from build outputs
+*.cab
+*.msi
+*.msix
+*.msm
+*.msp
+
+# JetBrains Rider
+*.sln.iml 
+
+                             [ Unknown Command:  ]                              
+^G Get Help  ^O WriteOut  ^R Read File ^Y Prev Pg   ^K Cut Text  ^C Cur Pos   
+^X Exit      ^J Justify   ^W Where is  ^V Next Pg   ^U UnCut Text^T To Spell  
